@@ -482,3 +482,13 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+/* Responsive OpenStreetMap */
+.openstreetmap-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.openstreetmap-container #footer-map {
+    width: 100%;
+}
