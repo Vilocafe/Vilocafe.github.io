@@ -492,3 +492,21 @@ footer .footer-below {
 .openstreetmap-container #footer-map {
     width: 100%;
 }
+/* --- Header Background with Blur --- */
+.header-bg-blur {
+  /* Set the background image */
+  background-image: url('../img/background.jpg');
+
+  /* Make the background cover the entire header area */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Add the blur effect to the background */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* For Safari */
+
+  /* Add a semi-transparent overlay to darken the background so text is readable */
+  background-color: rgba(0, 0, 0, 0.4);
+}
