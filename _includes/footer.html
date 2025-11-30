@@ -5,7 +5,7 @@
       <div class="row">
         <div class="footer-col col-md-4">
           <h3>{{ site.footer.location }}</h3>
-          <p>
+          <p> class="text-center" style="text-align: center;">
             {% for adress in site.address %}
             {{ adress.line }} <br>
             {% endfor %}
@@ -16,7 +16,7 @@
 </div>
 <!-- ========== OPENSTREETMAP END ========== -->
         </div>
-        <div class="footer-col col-md-4">
+        <div class="footer-col col-md-4 text-center">
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
