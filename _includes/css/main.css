@@ -510,3 +510,13 @@ footer .footer-below {
   /* Add a semi-transparent overlay to darken the background so text is readable */
   background-color: rgba(0, 0, 0, 0.4);
 }
+/* --- Header Text Outline --- */
+.header-bg-blur .intro-text .name,
+.header-bg-blur .intro-text .skills {
+  /* Creates a subtle black outline by using multiple shadows */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
