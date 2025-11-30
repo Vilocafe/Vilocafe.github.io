@@ -1,2 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+/* Rounded edges for the main header image */
+.header-image {
+  border-radius: 15px; /* Adjust the value to change the roundness */
+}
