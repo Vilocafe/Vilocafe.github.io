@@ -1,27 +1,11 @@
 # Site settings
 title: Vilo Café
 email: your-email@domain.com
-url: https://Vilocafe.github.io
+url: "https://Vilocafe.github.io"
 description: "Cafetería y Pastelería"
 keywords: "Cafetería, Pastelería, cafe, San Telmo, Buenos Aires, Argentina, medialunas, postres, coffee, espresso"
 skills: "Cafetería y Pastelería"
-meta_author: LastName FirstName
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+meta_author: Vilo Café
 
 # Color settings
 color:
@@ -30,19 +14,14 @@ color:
   secondary: "#67764f"
   secondary-dark: "#4a5238"
 
-# Footer settings
-footer:
- # copyright: Dr. Henry Jekyll
-  location: Ubicación
- # social: Around the Web
- # credits: Credits
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (uncomment to use)
 # social:
-#   - title: stack-overflow
-#     url: http://stackoverflow.com/questions/tagged/jekyll
-#   - title: bitbucket
-#     url: http://bitbucket.org/jekyll
 #   - title: github
 #     url: http://github.com/jekyll
 #   - title: whatsapp
@@ -52,19 +31,3 @@ footer:
 address:
   - line: Avenida Independencia 624
   - line: San Telmo, Argentina
-
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
-
-plugins:
-  - jekyll-seo-tag
